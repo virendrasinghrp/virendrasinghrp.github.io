@@ -139,20 +139,24 @@
 								<header>
 									<h2>Contact Me</h2>
 								</header>
-								<form action="#" method="post">
+								<form class="gform" action="https://script.google.com/macros/s/AKfycbyN1PzsqRQE2tGKVsCm7WqtNdCdtD62bT-RgJjlKJhH9050SHYsqRIGcA/exec" method="post" target="_blank">
+									 <div style="display:none" class="thankyou_message">
+										 <em>Thanks</em> for contacting! I will get back to you soon!
+									</div>
+
 									<div>
 										<div class="row">
 											<div class="col-6 col-12-medium">
 												<input type="text" name="name" placeholder="Name" />
 											</div>
 											<div class="col-6 col-12-medium">
-												<input type="text" name="email" placeholder="Email" />
+												<input type="text"id="email" name="email" placeholder="Email" />
 											</div>
 											<div class="col-12">
 												<input type="text" name="subject" placeholder="Subject" />
 											</div>
 											<div class="col-12">
-												<textarea name="message" placeholder="Message" rows="6"></textarea>
+												<textarea name="message" id="message" placeholder="Message" rows="6"></textarea>
 											</div>
 											<div class="col-12">
 												<input type="submit" value="Send Message" />
@@ -179,6 +183,9 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
+
+
 
 	</body>
 </html>

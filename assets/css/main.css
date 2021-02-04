@@ -2212,3 +2212,14 @@ Linkedin: #0e76a8
 		a .fa-envelope:hover{
 			color:#cc4747 !important;
 		}
+		
+/*Contact Form*/
+
+	.thankyou_message{
+		padding: 5px;
+        border: 1px solid #DEDEDE; 
+        margin: 5px 0;
+        background: #6e92d4;
+        color: #222222;
+        text-align: center;
+	}
