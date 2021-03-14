@@ -2223,3 +2223,98 @@ Linkedin: #0e76a8
         color: #222222;
         text-align: center;
 	}
+	
+	.contactButton > .button{
+		width: 200px !important;
+	}
+	
+
+/*Projects*/
+.flex-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    /*align-items: center;*/
+    align-items: stretch;
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin-right: 0px;
+    padding: 20px 10px;
+    font-size: 30px;
+}
+
+.flex-item {
+	display: flex;
+	flex-direction: row;
+	align-items: start;
+}
+
+.flex-item > .projectImage {
+	flex: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+    margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.projectImage > .imgP {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%; /* set to 'auto' in IE11 to avoid distortions */
+}
+
+.flex-item > .projectCntent{
+	flex: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	font-size: 16px;
+	line-height: normal;
+}
+.projectCntent > p{
+	margin-block-end: 0em;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.buttons >.button {
+  background-color: #333333;
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  width: 100px;
+}
+
+.buttons >.button:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.buttons >.button:active {
+  background-color: #dedede;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 768px) {
+  .flex-item {
+      flex-direction: column;
+  }
+}
