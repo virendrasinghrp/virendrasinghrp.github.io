@@ -1,3 +1,3 @@
-# astral
+# Portfolio website
 
-virendrasinghrp.github.io/astral
+virendrasinghrp.github.io
